@@ -44,7 +44,7 @@ const ProductComponent = () => {
       </button>
 
       <div
-        className={`relative lg:absolute lg:flex -ml-5 mt-2 bg-white rounded-md lg:py-4 py-2 transition ease-in duration-150 ${
+        className={`relative lg:absolute lg:flex -ml-5 bg-white rounded-md lg:py-4 py-2 transition ease-in duration-150 ${
           show ? "opacity-100 " : "opacity-0 invisible max-lg:hidden"
         }`}
       >

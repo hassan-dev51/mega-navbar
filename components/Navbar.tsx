@@ -10,7 +10,7 @@ const Navbar = () => {
   const [showNav, setShowNav] = useState<boolean>(false);
   return (
     <Container>
-      <div className="text-white bg-red-200 py-5">
+      <div className="text-white py-5">
         <div className="flex items-center max-lg:justify-between max-lg:flex-row-reverse">
           <div className="flex justify-between items-center max-lg:w-full">
             <div className="lg:hidden">
